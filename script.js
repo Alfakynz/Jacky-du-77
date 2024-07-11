@@ -1,9 +1,15 @@
+const slides = document.getElementsById("mySlides");
+
+function print(jacky) {
+  for(let i = 0; i < jacky[i]; i++) {
+    slides.
+  }
+}
+
 let slideIndex = 0;
 showSlides(slideIndex);
 
 function showSlides(n) {
-    const slides = document.getElementsByClassName("mySlides");
-    
     if (n >= slides.length) {
         slideIndex = 0;
     } else if (n < 0) {
