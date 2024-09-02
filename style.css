@@ -5,54 +5,58 @@ html {
 }
 
 body {
- color: black;
+  color: black;
 }
 
-h1, h2, h3, section, .center {
- text-align: center;
+h1,
+h2,
+h3,
+section,
+.center {
+  text-align: center;
 }
 
 header {
- margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 section {
- margin-top: 20px;
- margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 footer {
- width: 100%;
-}
-
-img {
- width: 100%;
-}
-
-a {
- color: black;
-}
-
-.insta {
- background: linear-gradient(to bottom right, #833ab4, #833ab4, #fd1d1d, #fcb045, yellow);
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
-}
-
-.slideshow-container {
-  position: relative;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-#mySlides {
-  display: none;
-  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 3;
+  background: #00000080;
 }
 
 img {
   width: 100%;
   height: auto;
+}
+
+a {
+  color: black;
+}
+
+.insta {
+  background: linear-gradient(to bottom right, #833ab4, #833ab4, #fd1d1d, #fcb045, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#slideshow-container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.mySlides {
+  display: none;
+  text-align: center;
 }
 
 .prev,
@@ -64,8 +68,9 @@ img {
   width: auto;
   padding-inline: 5px;
   font-size: 40px;
-  background-color: white;
-  border: solid 1px black;
+  color: #000000bb;
+  background-color: #ffffff80;
+  border: solid 1px #00000080;
   border-radius: 10px;
 }
 
@@ -79,5 +84,5 @@ img {
 
 .border {
   border-radius: 20px;
-  border: solid 2px black;
+  border: solid 1px #000000;
 }
