@@ -11,8 +11,7 @@ body {
 h1,
 h2,
 h3,
-section,
-.center {
+section {
   text-align: center;
 }
 
@@ -29,8 +28,11 @@ footer {
   width: 100%;
   position: fixed;
   bottom: 0;
+  left: 0;
   z-index: 3;
   background: #00000080;
+  color: #ffffff;
+  text-align: center;
 }
 
 img {
@@ -39,7 +41,7 @@ img {
 }
 
 a {
-  color: black;
+  color: #ffffff;
 }
 
 .insta {
@@ -51,7 +53,7 @@ a {
 #slideshow-container {
   position: relative;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
 }
 
 .mySlides {
